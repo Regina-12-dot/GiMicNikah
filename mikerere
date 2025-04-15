@@ -1,0 +1,96 @@
+echo "# GiMicNikah" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Regina-12-dot/GiMicNikah.git
+git push -u origin main
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Undangan Pernikahan Mike & Rere</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f8f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 2rem;
+      background-color: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    h1 {
+      color: #6a7d5b;
+      font-size: 2.5rem;
+      margin-bottom: 0.2rem;
+    }
+    .subtitle {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      color: #888;
+    }
+    .info {
+      margin: 2rem 0;
+      font-size: 1.1rem;
+    }
+    .info p {
+      margin: 0.5rem 0;
+    }
+    .dresscode {
+      margin-top: 1.5rem;
+      font-weight: bold;
+      color: #6a7d5b;
+    }
+    .rsvp {
+      margin-top: 2rem;
+    }
+    .rsvp a {
+      text-decoration: none;
+      color: white;
+      background-color: #6a7d5b;
+      padding: 0.8rem 1.5rem;
+      border-radius: 10px;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+    .hashtag {
+      margin-top: 3rem;
+      font-style: italic;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Michael & Regina</h1>
+    <div class="subtitle">13 Desember 2025 · 10.00 WIB</div>
+    <p>Dengan penuh sukacita, kami mengundang Bapak/Ibu/Saudara/i untuk hadir dan memberikan doa restu pada hari bahagia kami.</p>
+
+    <div class="info">
+      <p><strong>🗓️ Tanggal:</strong> Sabtu, 13 Desember 2025</p>
+      <p><strong>🕙 Waktu:</strong> 10.00 WIB</p>
+      <p><strong>📍 Lokasi:</strong> GKKK BCS Gading Serpong</p>
+      <p class="dresscode">🎨 Dresscode: Sage, Cream, White</p>
+    </div>
+
+    <div class="rsvp">
+      <p>Silakan konfirmasi kehadiran melalui WhatsApp:</p>
+      <a href="https://wa.me/6281385612212" target="_blank">RSVP Sekarang</a>
+    </div>
+
+    <div class="hashtag">
+      #ForeverMikeRere · #MikeAndRere2025
+    </div>
+  </div>
+</body>
+</html>
